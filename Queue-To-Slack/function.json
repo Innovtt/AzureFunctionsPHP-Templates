@@ -1,0 +1,12 @@
+{
+  "bindings": [
+    {
+      "name": "input",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "phperrors",
+      "connection": "<YOUR STORAGE CONNECTION HERE>"
+    }
+  ],
+  "disabled": false
+}
